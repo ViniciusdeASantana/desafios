@@ -1,0 +1,12 @@
+@import "./variables.css";
+@import "header.css";
+@import "section-hero.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}

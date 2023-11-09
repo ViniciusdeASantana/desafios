@@ -1,0 +1,42 @@
+@import "variable.css";
+
+.hero {
+  background: var(--bg-primary);
+  padding: 119px 0 164px 0;
+}
+
+.hero__container {
+  max-width: 1356px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content__title {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.hero-content__paragraph {
+  color: var(--color-secundary);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.hero-content__btn {
+  color: var(--color-primary-two);
+  font-weight: 600;
+  font-size: 16px;
+  background: var(--color-terciary);
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  width: fit-content;
+}
