@@ -1,0 +1,163 @@
+@import url(variable.css);
+
+@font-face {
+    font-family: "lato-regular";
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lato-bold";
+    src: url(../font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "merriweather-regular";
+    src: url(../font/Merriweather-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    @media(max-width: 500px) {
+        padding: 0px 15px;
+    }
+}
+
+.column-one {
+    background: #F7FAFC;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+.column-one img {
+    object-fit: contain;
+    width: 100%;
+    object-position: center;
+    height: 330px;
+}
+
+.column-two {
+    background: #FFF;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.form {
+    max-width: 350px;
+    width: 100%;
+}
+
+.form__subtitle {
+    color: #1A202C;
+    font-family: "merriweather-regular";
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.form__title {
+    color: #1A202C;
+    font-family: "merriweather-regular";
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+}
+
+.form-group__label {
+    margin-bottom: 11px;
+    color: #1A202C;
+    font-family: "lato-regular";
+    font-size: 16px;
+}
+
+.form-group__input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    padding: 17px 20px;
+}
+
+.group-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 17px 0px 26px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.checkbox__input {
+    width: 15px;
+    height: 15px;
+    border-radius: 50% !important;
+}
+
+.checkbox__label {
+    color: #1A202C;
+    font-family: "lato-bold";
+    font-size: 14px;
+}
+
+.checkbox__link {
+    color: #2B6CB0;
+    font-family: "lato-regular";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form__btn,
+.form__btn-google {
+    width: 100%;
+    color: #FFF;
+    background: var(--bg01);
+    font-family: "lato-regular";
+    padding: 15px 0px 16px 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form__btn-google {
+    background: #1A202C;
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__paragraph,
+.form__paragraph-link {
+    margin-top: 162px;
+    text-align: center;
+    color: #1A202C;
+    font-family: "lato-regular";
+    font-size: 16px;
+}
+
+.form__paragraph-link {
+    color: #2B6CB0;
+    text-decoration: none;
+}

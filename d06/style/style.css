@@ -1,0 +1,125 @@
+@import url(variable.css);
+
+@font-face {
+    font-family: "spaceg-bold";
+    src: url(../font/SpaceG-Bold.ttf);
+}
+
+@font-face {
+    font-family: "spaceg-semibold";
+    src: url(../font/SpaceG-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "spaceg-medium";
+    src: url(../font/SpaceG-Medium.ttf);
+}
+
+@font-face {
+    font-family: "spaceg-regular";
+    src: url(../font/SpaceG-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    background-image: url(../image/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-announcement {
+    color: white;
+    font-family: "spaceg-bold";
+    font-size: 32px;
+    font-weight: 700;
+    padding: 247px 0px 16px 0px;
+}
+
+.header-title {
+    color: white;
+    font-family: "spaceg-bold";
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__cover {
+    width: 184px;
+    height: auto;
+    border-radius: 16px;
+    margin-right: 48px;
+}
+
+.content-wrapper__paragraph {
+    color: white;
+    font-family: "spaceg-regular";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.wrapper__info {
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper__clock {
+    padding: 0px 12px 0px 0px;
+}
+
+.content-wrapper__time {
+    color: white;
+    font-family: "spaceg-regular";
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px 178px 0px 0px;
+}
+
+.content-wrapper__star {
+    padding: 0px 12px 0px 0px;
+}
+
+.content-wrapper__staroff {
+    padding: 0px 102px 0px 0px;
+}
+
+.form__btn1 {
+    background: var(--button);
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: white;
+    font-family: "spaceg-regular";
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.form__btn2 {
+    background: black;
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: white;
+    font-family: "spaceg-regular";
+    font-size: 16px;
+    margin-top: 40px;
+}
