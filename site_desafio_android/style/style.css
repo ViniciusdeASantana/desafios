@@ -1,0 +1,16 @@
+@import url(variable.css);
+
+@font-face {
+    font-family: "bebasn";
+    src: url(../fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "android";
+    src: url(../fontes/idroid.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
