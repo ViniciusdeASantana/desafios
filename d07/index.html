@@ -9,19 +9,22 @@
 </head>
 <body>
     <header class="header">
-        <div  class="header__title">
-            <p class="header__paragraph">Code</p>
-            <p class="header__paragraph-2">Lab</p>
-        </div>
-        <div class="header__input-box"><input type="text" placeholder="Pesquisar no blog" class="container header__searchbox">
-        </div>
+        <nav class="container">
+            <div  class="header__title">
+                <p class="header__paragraph">Code</p>
+                <p class="header__paragraph-2">Lab</p>
+            </div>
+            <div class="header__input-box">
+                <input type="text" placeholder="Pesquisar no blog" class="header__searchbox">
+            </div>
+        </nav>
     </header>
 
     <main class="container main">
         <div class="card">
             <div class="card-date">
                 <p class="card__date__paragraph">17 de ago, 2024</p>
-                <img src="../d07/font/Vector.png" alt="coracao" class="card__hearth">
+                <img src="../d07/font/Vector.png" alt="coracao" class="card__heart">
             </div>
             <h3 class="card__title">O que é linguagem de programação? Conheça as principais</h3>
             <p class="card__paragraph">Uma das mais populares vertentes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.</p>
@@ -29,7 +32,7 @@
         <div class="card">
             <div class="card-date">
                 <p class="card__date__paragraph">12 de jul, 2024</p>
-                <img src="../d07/font/Vector.png" alt="coracao" class="card__hearth">
+                <img src="../d07/font/Vector.png" alt="coracao" class="card__heart">
             </div>
             <h3 class="card__title">GitHub agora permite fazer login sem precisar de senha</h3>
             <p class="card__paragraph">O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fatores.</p>
@@ -37,11 +40,25 @@
         <div class="card">
             <div class="card-date">
                 <p class="card__date__paragraph">21 de jun, 2024</p>
-                <img src="../d07/font/Vector.png" alt="coracao" class="card__hearth">
+                <img src="../d07/font/Vector.png" alt="coracao" class="card__heart">
             </div>
             <h3 class="card__title">Por que os hiperlinks são azuis em sua maioria?</h3>
             <p class="card__paragraph">Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo clicável que direciona o leitor.</p>
         </div>
     </main>
+    <script>
+        var coracao = window.document.getElementsByClassName('card_heart')
+        coracao.addEventListener('click', clicar)
+        coracao.img.setAttribute('src', entrar)
+        coracao.addEventListener('mouseout', sair)
+
+        function clicar() {
+            coracao.style.background = 'blue'
+        }
+
+        function entrar() {
+            coracao.style.img = '../d07/font/Vector6.png'
+        }
+    </script>
 </body>
 </html>

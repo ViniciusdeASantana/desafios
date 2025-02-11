@@ -18,13 +18,20 @@
 }
 
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+.container__header {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--cor6);
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background: var(--cor1);
 }
 
 body {
@@ -64,7 +71,7 @@ body {
     color: white;
     width: 100%;
     padding: 16px 24px;
-    border-radius: 8px;
+    border-radius: 6px;
     background: var(--cor3);
 }
 
@@ -76,9 +83,15 @@ body {
 }
 
 .card {
+    border: solid;
+    border-color: var(--cor2);
     border-radius: 5px;
     background: var(--cor2);
     padding: 25px;
+}
+
+.card:hover {
+    border-color: var(--cor6);
 }
 
 .card-date {
