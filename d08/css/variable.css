@@ -1,0 +1,15 @@
+:root {
+    --cor1: #7CA2F4;
+    --cor2: #121214;
+    --cor3: #F3F7FF;      
+}
+
+@font-face {
+    font-family: "archivo";
+    src: url(../fonts/Archivo.ttf);
+}
+
+@font-face {
+    font-family: "archivo-italic";
+    src: url(..//fonts/Archivo-Italic.ttf);
+}
