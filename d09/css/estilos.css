@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url(variable.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, a {
+    color: white;
+
+}
+.header-conteiner {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px;
+    flex-wrap: wrap;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.navigation {
+    display: flex;
+    gap: 56px;
+}
+
+.navigation button {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 96px;
+}

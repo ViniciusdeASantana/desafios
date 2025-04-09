@@ -3,35 +3,146 @@
 @import url(variable.css);
 
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    flex-flow: row nowrap;
-
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 0px 24px;
+    @media(min-width: 768px) {
+        padding: 0px 40px;
+      }
 }
 
 .header__paragraph {
     font-family: "archivo";
+    font-size: 24px;
     padding: 19px 0px;
-}
-
-.main {
-
+    text-align: center;
 }
 
 .banner {
-    background: url(..//img/09b1a20191a57e504bf41c599dbaca80.png) center / cover no-repeat;
-    position: relative;
+    background: linear-gradient(#121214BF) , url(..//img/09b1a20191a57e504bf41c599dbaca80.png) top center/ cover no-repeat;
+
+    width: 100%;
+    padding: 95px 0px;
+}
+
+.conteiner__banner-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%;
+    justify-content: center;
+}
+
+.logo__name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .logo__bg {
-    
+    width: 30px;
+    height: 30px;
 }
 
 .paragraph__bg-1 {
+    color: white;
+    font-family: "archivo";
+    font-weight: 500;
+    font-size: 24px;
+}
 
+.content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title__bg {
+    color: white;
+    font-family: "archivo";
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.paragraph__bg-2 {
+    color: white;
+    font-family: "archivo";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.content-shoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 72px;
+}
+
+.content-shoes-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.content-shoes-text__title {
+    font-family: "archivo";
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.content-shoes-text__paragraph {
+    font-family: "archivo";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 32px;
+
+}
+
+.card-shoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-shoes-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-shoes-content__title {
+    font-family: "archivo";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-shoes-content__paragraph {
+    font-family: "archivo";
+    color: #7CA2F4;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-shoes__price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
