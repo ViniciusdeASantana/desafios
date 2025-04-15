@@ -26,7 +26,6 @@ body {
 
     @media(max-width:930px) {
         padding: 64px 0px;
-        justify-content: center;
     }
 }
 
