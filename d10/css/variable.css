@@ -1,0 +1,18 @@
+:root {
+    --cor1: #7C7C8A;
+    --cor2: #EAEAEA;
+    --cor3: #EEEEFF;
+    --cor4: #F8F8FF;
+    --cor5: #FFFFFF;
+    --cor6: #846AFF;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: Roboto-italic;
+    src: url(../fonts/Roboto-italic.ttf);
+}
